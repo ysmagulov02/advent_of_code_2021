@@ -60,5 +60,6 @@ int main(void) {
     printf("%d\n", position);
     
     
+    fclose(input_file);
     return 0;
 }

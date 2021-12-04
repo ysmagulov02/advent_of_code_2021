@@ -54,6 +54,6 @@ int main(void) {
     position = horizontal * depth;
     printf("%d\n", position);
     
-    
+    fclose(input_file);
     return 0;
 }
