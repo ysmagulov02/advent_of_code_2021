@@ -27,6 +27,7 @@ int main(void)
 
     }
     printf("\nincreased: %d", increased);
+    fclose(input_file);
     return 0;
 
 }

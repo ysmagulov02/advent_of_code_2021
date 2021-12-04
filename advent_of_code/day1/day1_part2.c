@@ -46,6 +46,7 @@ int main(void)
         }
     }
     printf("\nincreased: %d\n", increased);
+    fclose(input_file);
     return 0;
 
 }
